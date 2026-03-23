@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: #092f61;
+  font-size: bold;
+  padding: 15px 50px;
+  position: fixed;
+  width: 100%;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  
+}
+ul a{
+  color: #191b55;
+  text-decoration: none;
+}
+header {
+  height: 100vh;
+  background: linear-gradient(to right, #0b1f3a, #3fa9f5);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  align-items: center;
+  /* border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px; */
+}
+h2 {
+  font-size: 50px;
+  font-style: initial;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 8px;
+  color: rgb(225, 219, 219); 
+}
+p {
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(208, 202, 202);
+  margin-bottom: 15px;
+}
+button {
+  padding: 10px 20px;
+  background: #3fa9f5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+img {
+  width: 500px;
+  border-radius: 15px;
+  transition: 0.5s ease-in-out;
+}
+img:hover{
+  transform: scale(1.05);
+}
+.service-section{
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  box-shadow: 0 4px 10px rgba(0, o, 0, 0.1);
+  padding: 50px 30px;
+  margin: 30px;
+  transition: 0.3s;
+  background: #2c6c9a;
+  border-radius: 5px;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card h3{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.card p{
+  font-size: 20px;
+}
+.about-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-section p{
+  font-size: 20px;
+  color: rgb(31, 30, 30);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact-section{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  align-items: center;
+}
+[type="text"]{
+  width: 300px;
+  padding: 10px 30px;
+  background: #3fa9f5;
+  margin-bottom: 10px;
+  border: none;
+}
+[type="email"]{
+   width: 300px;
+  padding: 10px 30px;
+  background: #3fa9f5;
+  margin-bottom: 10px;
+  border: none;
+}
+[type='submit']{
+   width: 300px;
+  padding: 10px 30px;
+  background: #3fa9f5;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+.contact-section p{
+  font-size: 20px;
+  color: rgb(31, 30, 30);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer p{
+  background: #0b1f3a;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+}
