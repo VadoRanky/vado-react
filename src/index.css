@@ -68,10 +68,11 @@ img:hover{
 }
 .service-section{
   display: flex;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   align-items: center;
   justify-content: center;
+  
 }
 .card{
   box-shadow: 0 4px 10px rgba(0, o, 0, 0.1);
@@ -106,8 +107,9 @@ img:hover{
 .contact-section{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
+  margin-top: 20px;
   align-items: center;
+  padding: 100px;
 }
 [type="text"]{
   width: 300px;
